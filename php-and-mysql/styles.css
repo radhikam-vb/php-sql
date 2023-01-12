@@ -1,0 +1,161 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.first-field {
+margin-right: 50%;
+width: 50%;
+}
+ .last-field{
+  
+  margin-left: 53%;
+  margin-top: -70px;
+  width: 50%;
+ }
+p {
+  margin: 0px;
+  color: red;
+}
+
+.form-field {
+  margin: 10px 0;
+  width: 50%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.userinfo{
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+input[type="submit"]{
+  background-color: #4c77af;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+input::file-selector-button {
+  background-color: #4c77af;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px
+}
+
+input[type="submit"]:hover, input::file-selector-button:hover {
+  background-color: #4c77af;
+}
+
+.leftbtn {
+  background-color: #4c77af;
+  color: white;
+  padding: 15px 15px;
+  text-decoration: none;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.leftbtn:hover, .mid:hover , .delmid:hover{
+  background-color: #4c77af;
+}
+
+h1 {
+  text-align: center
+}
+
+table,
+td {
+  border: 2px solid;
+}
+
+table {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+.data-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-decoration: none
+}
+
+.mid {
+  background-color: #4c77af;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer
+}
+
+.delmid {
+  background-color: #4c77af;
+  color: white;
+  padding: 15px 15px;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer
+}
+
+.profile{
+  width: 23vh;
+  height: 23vh;
+}
+
+.userprofile{
+  width: 15vh;
+  height: 15vh;
+}
